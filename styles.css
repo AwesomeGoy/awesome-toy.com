@@ -44,3 +44,8 @@ header.home h1{font-size:clamp(1.15rem,2.5vw,1.6rem);font-weight:600;max-width:1
 .ml-thanks{font-weight:600;color:#c8553d;margin-top:12px}.signup .fine{font-size:.8rem;color:#8a7766;margin:12px 0 0}
 
 .stickers{margin-top:44px}.sticker-grid{grid-template-columns:repeat(auto-fill,minmax(min(340px,100%),1fr))}.sticker-grid .card img{aspect-ratio:auto;object-fit:contain;height:auto}.sticker-grid .body{display:flex;flex-direction:column;gap:10px}
+
+.notice{max-width:720px;margin:0 auto 36px;padding:22px 24px;background:#fff;border-radius:14px;box-shadow:0 4px 18px rgba(90,60,30,.12);text-align:center}
+.notice h2{margin:0 0 .45em;font-size:1.35rem;color:#c8553d}
+.notice p{flex:none;margin:0;font-size:1.02rem;line-height:1.55;color:#5b4b40}
+@media(max-width:500px){.notice{padding:18px 16px}.notice h2{font-size:1.2rem}.notice p{font-size:.95rem}}
