@@ -49,3 +49,8 @@ header.home h1{font-size:clamp(1.15rem,2.5vw,1.6rem);font-weight:600;max-width:1
 .notice h2{margin:0 0 .45em;font-size:1.35rem;color:#c8553d}
 .notice p{flex:none;margin:0;font-size:1.02rem;line-height:1.55;color:#5b4b40}
 @media(max-width:500px){.notice{padding:18px 16px}.notice h2{font-size:1.2rem}.notice p{font-size:.95rem}}
+
+.etsy{margin-top:44px}
+.etsy .sec,.etsy .intro{text-align:center}
+.etsy .shop-link{text-align:center;margin:0 0 28px}
+.etsy-grid .card img{aspect-ratio:auto;object-fit:contain;width:100%;height:auto;background:#e8d3b0}
