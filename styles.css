@@ -55,10 +55,10 @@ header.home h1{font-size:clamp(1.15rem,2.5vw,1.6rem);font-weight:600;max-width:1
 .etsy .shop-link{text-align:center;margin:0 0 28px}
 .etsy-grid .card img{aspect-ratio:auto;object-fit:contain;width:100%;height:auto;background:#e8d3b0}
 
-.thor-wave{display:block;width:clamp(130px,34vw,170px);height:auto;margin:1.4rem auto -5rem;overflow:visible;filter:drop-shadow(0 4px 8px rgba(0,0,0,.35))}
-@media(min-width:1100px){header.home{position:relative}.thor-wave{position:absolute;right:max(4vw,calc(50% - 560px));bottom:0;width:230px;margin:0}}
-.thor-forearm{transform-box:view-box;transform-origin:276px 213px;transform:rotate(18deg);animation:thor-wave 0.6s ease-in-out infinite alternate}
-.thor-eyes{transform-box:fill-box;transform-origin:center;animation:thor-blink 5s infinite}
-@keyframes thor-wave{from{transform:rotate(8deg)}to{transform:rotate(32deg)}}
-@keyframes thor-blink{0%,93%,100%{transform:scaleY(1)}96%{transform:scaleY(.12)}}
-@media(prefers-reduced-motion:reduce){.thor-forearm,.thor-eyes{animation:none}}
+.thor-wave{display:block;width:clamp(230px,64vw,300px);height:auto;margin:1.4rem auto -5rem;overflow:visible;filter:drop-shadow(0 4px 8px rgba(0,0,0,.35))}
+@media(min-width:1200px){header.home{position:relative}.thor-wave{position:absolute;right:max(4vw,calc(50% - 560px));bottom:0;width:300px;margin:0}}
+.thor-forearm{transform-box:view-box;transform-origin:130px 300px;animation:thor-wave .6s ease-in-out infinite alternate}
+@keyframes thor-wave{from{transform:rotate(-14deg)}to{transform:rotate(2deg)}}
+.max-tail{transform-box:view-box;transform-origin:860px 495px;animation:max-wag .4s ease-in-out infinite alternate}
+@keyframes max-wag{from{transform:rotate(-10deg)}to{transform:rotate(10deg)}}
+@media(prefers-reduced-motion:reduce){.thor-forearm,.max-tail{animation:none}}
