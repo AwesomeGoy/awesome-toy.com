@@ -62,3 +62,5 @@ header.home h1{font-size:clamp(1.15rem,2.5vw,1.6rem);font-weight:600;max-width:1
 .max-tail{transform-box:view-box;transform-origin:860px 495px;animation:max-wag .4s ease-in-out infinite alternate}
 @keyframes max-wag{from{transform:rotate(-10deg)}to{transform:rotate(10deg)}}
 @media(prefers-reduced-motion:reduce){.thor-forearm,.max-tail{animation:none}}
+
+.qr-code{display:block;width:min(220px,70vw);height:auto;margin:0 auto 18px;background:#fff;padding:12px;border:1px solid #eadfce;border-radius:8px}
