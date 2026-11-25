@@ -52,7 +52,9 @@ header.home h1{font-size:clamp(1.15rem,2.5vw,1.6rem);font-weight:600;max-width:1
 
 .etsy{margin-top:44px}
 .etsy .sec,.etsy .intro{text-align:center}
-.etsy .shop-link{text-align:center;margin:0 0 28px}
+.shop-link{text-align:center;margin:0 0 28px}.shop-link .btn{display:inline-block}
+.nav a:focus-visible{color:#e0a458;outline:2px solid #e0a458;outline-offset:3px}
+.btn:focus-visible{outline:3px solid #3a2e26;outline-offset:3px}
 .etsy-grid .card img{aspect-ratio:auto;object-fit:contain;width:100%;height:auto;background:#e8d3b0}
 
 .thor-wave{display:block;width:clamp(230px,64vw,300px);height:auto;margin:1.4rem auto -5rem;overflow:visible;filter:drop-shadow(0 4px 8px rgba(0,0,0,.35))}
